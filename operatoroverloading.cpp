@@ -27,7 +27,7 @@ public:
         gender = a.gender;
     }
 
-    bool operator==(student &a)
+    bool operator==(student &a) // operator overloading
     {
         if (name == a.name && age == a.age && gender == a.gender)
         {
