@@ -17,7 +17,7 @@ public:
     {
         cout << "String: " << str << endl;
     }
-    Test operator+(Test t2)
+    Test operator+(Test &t2)
     {
         Test t3;
         t3.str = this->str + " " + t2.str;
